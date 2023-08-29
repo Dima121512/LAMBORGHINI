@@ -71,11 +71,14 @@ a{
 
 }
 
+
 .promo{
     background-image: url(../images/Promo.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: center;
+    background-position: top center;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -176,5 +179,28 @@ a{
 }
 
 .info__table{
-     
+     flex-basis: 450px;
+     border-bottom: 1px solid #040404 ;
+     position: relative;
+     top: 20px;
+}
+
+.info__table::before{
+    content: '';
+    border-top: 1px solid #040404 ;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+}
+
+.info__table td {
+    padding-bottom: 20px;
+}
+
+.track{
+    padding-top: 90px;
+    background-image: url(../images/track-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
