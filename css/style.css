@@ -20,7 +20,7 @@ a{
 }
 
 .big-container{
-    max-width: 1220px;
+    max-width: 1628px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -76,9 +76,7 @@ a{
     background-image: url(../images/Promo.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: top center;
-    margin: 0;
-    padding: 0;
+    background-position: center;
 }
 
 
@@ -134,6 +132,7 @@ a{
 .info__part-img{
  padding-top: 440px;
  display: flex;
+ object-fit: cover;
 }
 
 .info__part--third{
@@ -159,12 +158,9 @@ a{
 .info__text{
     flex-basis: 440px;
     padding-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom:  30px;
 }
 
-.info__part-img{
-    object-fit: cover;
-}
 
 .info__content{
     flex-basis: 415px;
@@ -198,9 +194,30 @@ a{
 }
 
 .track{
-    padding-top: 90px;
     background-image: url(../images/track-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.track__inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.track__title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.track__text{
+    max-width: 435px;
+
+}
+
+.track__img{
+    margin: auto auto 90px auto;
+} 
