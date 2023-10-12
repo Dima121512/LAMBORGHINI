@@ -84,7 +84,7 @@ html{
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;  
+    min-height: 110vh;  
     text-align: center;
 }
 
@@ -133,7 +133,7 @@ html{
 }
 
 .info__part-img{
- padding-top: 440px;
+ padding-top: 30px;
  display: flex;
  object-fit: cover;
 }
@@ -178,7 +178,7 @@ html{
 }
 
 .info__table{
-     flex-basis: 450px;
+     flex-basis: 490px;
      border-bottom: 1px solid #040404 ;
      position: relative;
      top: 20px;
